@@ -19,11 +19,11 @@ This paper and code will help industrial users, data analysts, and researchers t
 Sample code for hyper-parameter optimization implementation for machine learning algorithms is provided in this repository.  
 
 **Sample code for Regression problems**  
-[HPO_Regression.ipynb]  
-Dataset used: [Boston-Housing]  
+[HPO_Regression.ipynb](https://www.google.ca/)   
+Dataset used: [Boston-Housing](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)   
 **Sample code for Classification problems**  
-[HPO_Classification.ipynb]  
-Dataset used: [MNIST]  
+[HPO_Classification.ipynb](https://www.google.ca/)   
+Dataset used: [MNIST](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)   
 
 **Machine learning algorithms used:**  
 * Random forest (RF)
@@ -51,4 +51,5 @@ Dataset used: [MNIST]
 
 ## Citation
 If you find this repository useful in your research, please cite:  
+
 L. Yang and A. Shami, "On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice," Neurocomputing, 2020.
