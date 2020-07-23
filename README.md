@@ -1,5 +1,8 @@
 # Hyperparameter-Optimization-of-Machine-Learning-Algorithms
-On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice
+
+
+This code provides a hyper-parameter optimization implementation for machine learning algorithms, as described in the paper "On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice".
+
 
 Please Cite: 
 
