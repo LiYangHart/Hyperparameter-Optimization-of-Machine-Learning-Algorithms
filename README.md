@@ -21,19 +21,19 @@ This paper and code will help industrial users, data analysts, and researchers t
 ## Implementation
 Sample code for hyper-parameter optimization implementation for machine learning algorithms is provided in this repository.  
 
-**Sample code for Regression problems**  
+### Sample code for Regression problems  
 [HPO_Regression.ipynb](https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms/blob/master/HPO_Regression.ipynb)   
-Dataset used: [Boston-Housing](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)   
-**Sample code for Classification problems**  
+**Dataset used:** [Boston-Housing](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)   
+### Sample code for Classification problems  
 [HPO_Classification.ipynb](https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms/blob/master/HPO_Classification.ipynb)   
-Dataset used: [MNIST](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)   
+**Dataset used:** [MNIST](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)   
 
-**Machine learning algorithms used:**  
+### Machine Learning Algorithms  
 * Random forest (RF)
 * Support vector machine (SVM)
 * K-nearest neighbor (KNN)  
 
-**HPO algorithms used:**  
+### HPO Algorithms  
 * Grid search
 * Random search
 * Hyperband
@@ -42,15 +42,15 @@ Dataset used: [MNIST](https://scikit-learn.org/stable/modules/generated/sklearn.
 * Particle swarm optimization (PSO)
 * Genetic algorithm (GA).  
 
-**Python libraries requirements** 
+### Requirements  
 * Python 3.5  
-* scikit-learn  
-* hyperband  
-* scikit-optimize  
-* hyperopt  
-* optunity  
-* DEAP  
-* TPOT  
+* [scikit-learn](https://scikit-learn.org/stable/)  
+* [hyperband](https://github.com/thuijskens/scikit-hyperband)  
+* [scikit-optimize](https://github.com/scikit-optimize/scikit-optimize)  
+* [hyperopt](https://github.com/hyperopt/hyperopt)  
+* [optunity](https://github.com/claesenm/optunity)  
+* [DEAP](https://github.com/DEAP/deap)  
+* [TPOT](https://github.com/EpistasisLab/tpot)  
 
 ## Citation
 If you find this repository useful in your research, please cite:  
