@@ -7,7 +7,7 @@ To fit a machine learning model into different problems, its hyper-parameters mu
 This paper and code will help industrial users, data analysts, and researchers to better develop machine learning models by identifying the proper hyper-parameter configurations effectively.
 
 ## Paper
-[On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice](https://www.google.ca/) 
+[On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice](https://www.sciencedirect.com/science/article/abs/pii/S0925231220311693) 
 ### Quick Navigation
 **Section 3**: Common hyper-parameters of machine learning algorithms  
 **Section 4**: Hyper-parameter optimization techniques introduction  
@@ -53,6 +53,7 @@ Sample code for hyper-parameter optimization implementation for machine learning
 * [TPOT](https://github.com/EpistasisLab/tpot)  
 
 ## Citation
-If you find this repository useful in your research, please cite:  
+If you find this repository useful in your research, please this article as:  
 
-L. Yang and A. Shami, "On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice," Neurocomputing, 2020.
+L. Yang, A. Shami, On Hyperparameter Optimization of Machine Learning
+Algorithms: Theory and Practice, Neurocomputing (2020), doi: https://doi.org/10.1016/j.neucom.2020.07.061
