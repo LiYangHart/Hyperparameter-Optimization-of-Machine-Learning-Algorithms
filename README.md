@@ -65,5 +65,5 @@ journal = "Neurocomputing",
 year = "2020",
 issn = "0925-2312",
 doi = "https://doi.org/10.1016/j.neucom.2020.07.061"
-```
 }
+```
