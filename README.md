@@ -55,12 +55,13 @@ Sample code for hyper-parameter optimization implementation for machine learning
 ## Citation
 If you find this repository useful in your research, please this article as:  
 
-L. Yang, A. Shami, On Hyperparameter Optimization of Machine Learning
+L. Yang and A. Shami, On Hyperparameter Optimization of Machine Learning
 Algorithms: Theory and Practice, *Neurocomputing* (2020), doi: https://doi.org/10.1016/j.neucom.2020.07.061
 
 ```
 @article{YANG2020,
 title = "On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice",
+author = "Li Yang and Abdallah Shami",
 journal = "Neurocomputing",
 year = "2020",
 issn = "0925-2312",
