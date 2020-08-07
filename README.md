@@ -33,6 +33,29 @@ Sample code for hyper-parameter optimization implementation for machine learning
 * Support vector machine (SVM)
 * K-nearest neighbor (KNN)  
 
+### Hyperparameter Configuration Space  
+|     ML Model          |     Hyper-parameter      |     Type           |     Search Space                            |
+|-----------------------|--------------------------|--------------------|---------------------------------------------|
+|     RF Classifier     |     n_estimators         |     Discrete       |     [10,100]                                |
+|                       |     max_depth            |     Discrete       |     [5,50]                                  |
+|                       |     min_samples_split    |     Discrete       |     [2,11]                                  |
+|                       |     min_samples_leaf     |     Discrete       |     [1,11]                                  |
+|                       |     criterion            |     Categorical    |     ['gini', 'entropy']                     |
+|                       |     max_features         |     Discrete       |     [1,64]                                  |
+|     SVM Classifier    |     C                    |     Continuous     |     [0.1,50]                                |
+|                       |     kernel               |     Categorical    |     ['linear', 'poly', 'rbf', 'sigmoid']    |
+|     KNN Classifier    |     n_neighbors          |     Discrete       |     [1,20]                                  |
+|     RF Regressor      |     n_estimators         |     Discrete       |     [10,100]                                |
+|                       |     max_depth            |     Discrete       |     [5,50]                                  |
+|                       |     min_samples_split    |     Discrete       |     [2,11]                                  |
+|                       |     min_samples_leaf     |     Discrete       |     [1,11]                                  |
+|                       |     criterion            |     Categorical    |     ['mse', 'mae']                          |
+|                       |     max_features         |     Discrete       |     [1,13]                                  |
+|     SVM Regressor     |     C                    |     Continuous     |     [0.1,50]                                |
+|                       |     kernel               |     Categorical    |     ['linear', 'poly', 'rbf', 'sigmoid']    |
+|                       |     epsilon              |     Continuous     |     [0.001,1]                               |
+|     KNN Regressor     |     n_neighbors          |     Discrete       |     [1,20]                                  |
+
 ### HPO Algorithms  
 * Grid search
 * Random search
@@ -40,7 +63,7 @@ Sample code for hyper-parameter optimization implementation for machine learning
 * Bayesian Optimization with Gaussian Processes (BO-GP)
 * Bayesian Optimization with Tree-structured Parzen Estimator (BO-TPE)
 * Particle swarm optimization (PSO)
-* Genetic algorithm (GA).  
+* Genetic algorithm (GA)  
 
 ### Requirements  
 * Python 3.5  
