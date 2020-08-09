@@ -76,7 +76,7 @@ Sample code for hyper-parameter optimization implementation for machine learning
 * [TPOT](https://github.com/EpistasisLab/tpot)  
 
 ## Citation
-If you find this repository useful in your research, please cite this article as:  
+If you find this repository useful in your research, please this article as:  
 
 L. Yang and A. Shami, On Hyperparameter Optimization of Machine Learning
 Algorithms: Theory and Practice, *Neurocomputing* (2020), doi: https://doi.org/10.1016/j.neucom.2020.07.061
