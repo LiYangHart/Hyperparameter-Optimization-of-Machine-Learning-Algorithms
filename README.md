@@ -9,13 +9,13 @@ This paper and code will help industrial users, data analysts, and researchers t
 ## Paper
 [On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice](https://arxiv.org/abs/2007.15745) 
 ### Quick Navigation
-**Section 3**: Common hyper-parameters of machine learning algorithms  
+**Section 3**: Important hyper-parameters of common machine learning algorithms  
 **Section 4**: Hyper-parameter optimization techniques introduction  
 **Section 5**: How to choose optimization techniques for different machine learning models  
-**Section 6**: Common Python libraries/tools  
+**Section 6**: Common Python libraries/tools for hyper-parameter optimization 
 **Section 7**: Experimental results (sample code in "HPO_Regression.ipynb" and "HPO_Classification.ipynb")  
 **Section 8**: Open challenges and future research directions  
-**Summary table for Sections 3-6**: Table 2:  A comprehensive overview of common ML models, their hyper-parameters, suit-able optimization techniques, and available Python libraries  
+**Summary table for Sections 3-6**: Table 2:  A comprehensive overview of common ML models, their hyper-parameters, suitable optimization techniques, and available Python libraries  
 **Summary table for Sections 8**: Table 10:  The open challenges and future directions of HPO research  
 
 ## Implementation
