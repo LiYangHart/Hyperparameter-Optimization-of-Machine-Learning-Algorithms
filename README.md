@@ -30,10 +30,11 @@ Sample code for hyper-parameter optimization implementation for machine learning
 [HPO_Classification.ipynb](https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms/blob/master/HPO_Classification.ipynb)   
 **Dataset used:** [MNIST](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)   
 
-### Machine Learning Algorithms  
+### Machine Learning & Deep Learning Algorithms  
 * Random forest (RF)
 * Support vector machine (SVM)
 * K-nearest neighbor (KNN)  
+* Artificial Neural Networks (ANN)
 
 ### Hyperparameter Configuration Space  
 |     ML Model          |     Hyper-parameter      |     Type           |     Search Space                            |
@@ -42,21 +43,34 @@ Sample code for hyper-parameter optimization implementation for machine learning
 |                       |     max_depth            |     Discrete       |     [5,50]                                  |
 |                       |     min_samples_split    |     Discrete       |     [2,11]                                  |
 |                       |     min_samples_leaf     |     Discrete       |     [1,11]                                  |
-|                       |     criterion            |     Categorical    |     ['gini', 'entropy']                     |
+|                       |     criterion            |     Categorical    |     'gini', 'entropy'                     |
 |                       |     max_features         |     Discrete       |     [1,64]                                  |
 |     SVM Classifier    |     C                    |     Continuous     |     [0.1,50]                                |
-|                       |     kernel               |     Categorical    |     ['linear', 'poly', 'rbf', 'sigmoid']    |
+|                       |     kernel               |     Categorical    |     'linear', 'poly', 'rbf', 'sigmoid'    |
 |     KNN Classifier    |     n_neighbors          |     Discrete       |     [1,20]                                  |
+|     ANN Classifier    |     optimizer         |     Categorical       |     'adam', 'rmsprop', 'sgd'                                |
+|                       |     activation            |     Categorical       |     'relu', 'tanh'                                  |
+|                       |     batch_size    |     Discrete       |     [16,64]                                  |
+|                       |     neurons     |     Discrete       |     [10,100]                                  |
+|                       |     epochs            |     Discrete    |     [20,50]                     |
+|                       |     patience         |     Discrete       |     [3,20]                                  |
 |     RF Regressor      |     n_estimators         |     Discrete       |     [10,100]                                |
 |                       |     max_depth            |     Discrete       |     [5,50]                                  |
 |                       |     min_samples_split    |     Discrete       |     [2,11]                                  |
 |                       |     min_samples_leaf     |     Discrete       |     [1,11]                                  |
-|                       |     criterion            |     Categorical    |     ['mse', 'mae']                          |
+|                       |     criterion            |     Categorical    |     'mse', 'mae'                          |
 |                       |     max_features         |     Discrete       |     [1,13]                                  |
 |     SVM Regressor     |     C                    |     Continuous     |     [0.1,50]                                |
-|                       |     kernel               |     Categorical    |     ['linear', 'poly', 'rbf', 'sigmoid']    |
+|                       |     kernel               |     Categorical    |     'linear', 'poly', 'rbf', 'sigmoid'    |
 |                       |     epsilon              |     Continuous     |     [0.001,1]                               |
 |     KNN Regressor     |     n_neighbors          |     Discrete       |     [1,20]                                  |
+|     ANN Regressor     |     optimizer         |     Categorical       |     'adam', 'rmsprop'                              |
+|                       |     activation            |     Categorical       |     'relu', 'tanh'                                  |
+|                       |     loss            |     Categorical       |     'mse', 'mae'                                  |
+|                       |     batch_size    |     Discrete       |     [16,64]                                  |
+|                       |     neurons     |     Discrete       |     [10,100]                                  |
+|                       |     epochs            |     Discrete    |     [20,50]                     |
+|                       |     patience         |     Discrete       |     [3,20]                                  |
 
 ### HPO Algorithms  
 * Grid search
@@ -69,6 +83,7 @@ Sample code for hyper-parameter optimization implementation for machine learning
 
 ### Requirements  
 * Python 3.5  
+* [Keras](https://keras.io/) 
 * [scikit-learn](https://scikit-learn.org/stable/)  
 * [hyperband](https://github.com/thuijskens/scikit-hyperband)  
 * [scikit-optimize](https://github.com/scikit-optimize/scikit-optimize)  
