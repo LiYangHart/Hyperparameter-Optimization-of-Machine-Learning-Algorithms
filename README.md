@@ -92,6 +92,12 @@ Sample code for hyper-parameter optimization implementation for machine learning
 * [DEAP](https://github.com/DEAP/deap)  
 * [TPOT](https://github.com/EpistasisLab/tpot)  
 
+## Contact-Info
+Please feel free to contact me for any questions or cooperation opportunities. I'd be happy to help.
+* Email: [liyanghart@gmail.com](mailto:liyanghart@gmail.com)
+* GitHub: [LiYangHart](https://github.com/LiYangHart)
+* LinkedIn: [Li Yang](https://www.linkedin.com/in/li-yang-65a190176/)
+
 ## Citation
 If you find this repository useful in your research, please cite this article as:  
 
