@@ -1,6 +1,7 @@
 # Hyperparameter Optimization of Machine Learning Algorithms
 
-This code provides a hyper-parameter optimization implementation for machine learning algorithms, as described in the paper "On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice".  
+This code provides a hyper-parameter optimization implementation for machine learning algorithms, as described in the paper:  
+L. Yang and A. Shami, “[On hyperparameter optimization of machine learning algorithms: Theory and practice](https://arxiv.org/abs/2007.15745),” Neurocomputing, vol. 415, pp. 295–316, 2020, doi: https://doi.org/10.1016/j.neucom.2020.07.061.  
 
 To fit a machine learning model into different problems, its hyper-parameters must be tuned. Selecting the best hyper-parameter configuration for machine learning models has a direct impact on the model's performance. In this paper, optimizing the hyper-parameters of common machine learning models is studied. We introduce several state-of-the-art optimization techniques and discuss how to apply them to machine learning algorithms. Many available libraries and frameworks developed for hyper-parameter optimization problems are provided, and some open challenges of hyper-parameter optimization research are also discussed in this paper. Moreover, experiments are conducted on benchmark datasets to compare the performance of different optimization methods and provide practical examples of hyper-parameter optimization.  
 
