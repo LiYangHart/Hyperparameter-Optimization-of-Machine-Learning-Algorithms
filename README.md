@@ -90,7 +90,7 @@ Sample code for hyper-parameter optimization implementation for machine learning
 * [scikit-optimize](https://github.com/scikit-optimize/scikit-optimize)  
 * [hyperopt](https://github.com/hyperopt/hyperopt)  
 * [optunity](https://github.com/claesenm/optunity)  
-* [DEAP](https://github.com/DEAP/deap)  
+* [DEAP](https://github.com/rsteca/sklearn-deap)  
 * [TPOT](https://github.com/EpistasisLab/tpot)  
 
 ## Contact-Info
