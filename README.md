@@ -83,7 +83,7 @@ Sample code for hyper-parameter optimization implementation for machine learning
 * Genetic algorithm (GA)  
 
 ### Requirements  
-* Python 3.5  
+* Python 3.5+ 
 * [Keras](https://keras.io/) 
 * [scikit-learn](https://scikit-learn.org/stable/)  
 * [hyperband](https://github.com/thuijskens/scikit-hyperband)  
