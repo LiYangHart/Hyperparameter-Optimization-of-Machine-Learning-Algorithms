@@ -7,6 +7,9 @@ To fit a machine learning model into different problems, its hyper-parameters mu
 
 This paper and code will help industrial users, data analysts, and researchers to better develop machine learning models by identifying the proper hyper-parameter configurations effectively.
 
+- PS: A comprehensive **Automated Machine Learning (AutoML)** tutorial code can be found in: [AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics)  
+   * Including **automated data pre-processing, automated feature engineering, automated model selection, hyperparameter optimization, and automated model updating** (concept drift adaptation).  
+
 ## Paper
 On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice  
 [One-column version: arXiv](https://arxiv.org/abs/2007.15745)  
